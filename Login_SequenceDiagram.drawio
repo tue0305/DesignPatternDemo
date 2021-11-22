@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T10:47:11.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="wro2o-TfZeQnG-xEYCgK" version="15.8.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-22T10:47:53.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="wntvWWJSiJcGmQQUMH2D" version="15.8.3" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence_Login">
     <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -472,6 +472,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FdvN2o42iOKBgNyPMd7W-10" value="checkValidOTP()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FdvN2o42iOKBgNyPMd7W-9">
+          <mxGeometry x="-0.2222" y="3" relative="1" as="geometry">
+            <mxPoint x="10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdvN2o42iOKBgNyPMd7W-18" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" edge="1" parent="hTDITebdi8VZKOtm0hj7-1" source="kdtmZ4ecT6VhdcJBhnhd-9" target="pUrRV-KYk3D6kFNX7yST-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="450" as="sourcePoint" />
+            <mxPoint x="330" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="460" />
+              <mxPoint x="280" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdvN2o42iOKBgNyPMd7W-19" value="fill new password" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FdvN2o42iOKBgNyPMd7W-18">
           <mxGeometry x="-0.2222" y="3" relative="1" as="geometry">
             <mxPoint x="10" y="-7" as="offset" />
           </mxGeometry>
