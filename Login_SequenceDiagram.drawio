@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T10:52:12.263Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="B4A_GHumZWOVZ1k4Q51_" version="15.8.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-22T10:54:18.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="tHlTiAt1u7wUPR3OrFAU" version="15.8.3" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence_Login">
     <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -272,6 +272,15 @@
         <mxCell id="kdtmZ4ecT6VhdcJBhnhd-25" value="[User found]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;fontStyle=1" vertex="1" parent="kdtmZ4ecT6VhdcJBhnhd-23">
           <mxGeometry y="59.9957117831022" width="739.9999999999995" height="17.200000000000006" as="geometry" />
         </mxCell>
+        <mxCell id="FdvN2o42iOKBgNyPMd7W-30" value="Update password successful" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="kdtmZ4ecT6VhdcJBhnhd-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="347" y="300.00230769230757" as="sourcePoint" />
+            <mxPoint x="180" y="300.00230769230757" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="294.73129870129867" y="300.00230769230757" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kdtmZ4ecT6VhdcJBhnhd-1" value="[Recover password&#xa;by phone number]" style="text;fontStyle=1" vertex="1" parent="kdtmZ4ecT6VhdcJBhnhd-0">
           <mxGeometry width="100" height="20" relative="1" as="geometry">
             <mxPoint x="20" y="30" as="offset" />
@@ -487,8 +496,9 @@
             <mxPoint x="370" y="627" as="sourcePoint" />
             <mxPoint x="500" y="480" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="410" y="480" />
-              <mxPoint x="460" y="480" />
+              <mxPoint x="370" y="470" />
+              <mxPoint x="420" y="470" />
+              <mxPoint x="490" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -506,19 +516,37 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FdvN2o42iOKBgNyPMd7W-24" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" edge="1" parent="hTDITebdi8VZKOtm0hj7-1" source="kdtmZ4ecT6VhdcJBhnhd-12" target="kdtmZ4ecT6VhdcJBhnhd-20">
+        <mxCell id="FdvN2o42iOKBgNyPMd7W-26" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" edge="1" parent="hTDITebdi8VZKOtm0hj7-1" target="kdtmZ4ecT6VhdcJBhnhd-20">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="534.5110389610389" y="640.0015384615384" as="sourcePoint" />
-            <mxPoint x="670" y="490" as="targetPoint" />
+            <mxPoint x="530" y="480" as="sourcePoint" />
+            <mxPoint x="695" y="490" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="550" y="490" />
-              <mxPoint x="640" y="490" />
+              <mxPoint x="570" y="480" />
+              <mxPoint x="640" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FdvN2o42iOKBgNyPMd7W-25" value="updatePassword()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FdvN2o42iOKBgNyPMd7W-24">
+        <mxCell id="FdvN2o42iOKBgNyPMd7W-27" value="updatePassword()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FdvN2o42iOKBgNyPMd7W-26">
           <mxGeometry x="-0.2222" y="3" relative="1" as="geometry">
             <mxPoint x="10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdvN2o42iOKBgNyPMd7W-28" value="update success" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="hTDITebdi8VZKOtm0hj7-1" source="kdtmZ4ecT6VhdcJBhnhd-20" target="kdtmZ4ecT6VhdcJBhnhd-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="510" as="sourcePoint" />
+            <mxPoint x="550" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="647.7312987012987" y="510.0023076923076" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdvN2o42iOKBgNyPMd7W-29" value="return message" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="hTDITebdi8VZKOtm0hj7-1" source="kdtmZ4ecT6VhdcJBhnhd-12" target="pUrRV-KYk3D6kFNX7yST-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="520" as="sourcePoint" />
+            <mxPoint x="360" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="462.73129870129867" y="520.0023076923076" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
