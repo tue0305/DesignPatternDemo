@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T10:54:57.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="qBbvZJe_1WTBzKpeC5Fw" version="15.8.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-22T10:55:17.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="Gh52cPhPm-G1TFw9kps4" version="15.8.3" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence_Login">
     <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -475,10 +475,11 @@
         </mxCell>
         <mxCell id="FdvN2o42iOKBgNyPMd7W-2" value="Show message" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="hTDITebdi8VZKOtm0hj7-1" source="pUrRV-KYk3D6kFNX7yST-5" target="kdtmZ4ecT6VhdcJBhnhd-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="290" as="sourcePoint" />
+            <mxPoint x="330" y="270" as="sourcePoint" />
             <mxPoint x="180" y="311.2311688311689" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="320" y="280" />
+              <mxPoint x="320" y="270" />
+              <mxPoint x="300" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
