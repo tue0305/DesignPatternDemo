@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T10:54:18.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="tHlTiAt1u7wUPR3OrFAU" version="15.8.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-22T10:54:29.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="d91ZcehHyf-rrX1_6oXW" version="15.8.3" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence_Login">
     <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -272,10 +272,10 @@
         <mxCell id="kdtmZ4ecT6VhdcJBhnhd-25" value="[User found]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;fontStyle=1" vertex="1" parent="kdtmZ4ecT6VhdcJBhnhd-23">
           <mxGeometry y="59.9957117831022" width="739.9999999999995" height="17.200000000000006" as="geometry" />
         </mxCell>
-        <mxCell id="FdvN2o42iOKBgNyPMd7W-30" value="Update password successful" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="kdtmZ4ecT6VhdcJBhnhd-23">
+        <mxCell id="FdvN2o42iOKBgNyPMd7W-30" value="Update password successful" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="kdtmZ4ecT6VhdcJBhnhd-23" target="kdtmZ4ecT6VhdcJBhnhd-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="347" y="300.00230769230757" as="sourcePoint" />
-            <mxPoint x="180" y="300.00230769230757" as="targetPoint" />
+            <mxPoint x="190" y="300" as="targetPoint" />
             <Array as="points">
               <mxPoint x="294.73129870129867" y="300.00230769230757" />
             </Array>
