@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T10:54:29.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="d91ZcehHyf-rrX1_6oXW" version="15.8.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-22T10:54:57.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="qBbvZJe_1WTBzKpeC5Fw" version="15.8.3" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence_Login">
     <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -262,7 +262,7 @@
           <mxGeometry x="-30" y="150" width="850" height="820" as="geometry" />
         </mxCell>
         <mxCell id="kdtmZ4ecT6VhdcJBhnhd-23" value="Alternative" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=80;height=20;fontStyle=0" vertex="1" parent="kdtmZ4ecT6VhdcJBhnhd-0">
-          <mxGeometry x="20" y="80" width="740" height="430" as="geometry" />
+          <mxGeometry x="20" y="80" width="740" height="360" as="geometry" />
         </mxCell>
         <mxCell id="kdtmZ4ecT6VhdcJBhnhd-24" value="[User not found]" style="text;fontStyle=1" vertex="1" parent="kdtmZ4ecT6VhdcJBhnhd-23">
           <mxGeometry width="100" height="20" relative="1" as="geometry">
@@ -270,16 +270,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kdtmZ4ecT6VhdcJBhnhd-25" value="[User found]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;fontStyle=1" vertex="1" parent="kdtmZ4ecT6VhdcJBhnhd-23">
-          <mxGeometry y="59.9957117831022" width="739.9999999999995" height="17.200000000000006" as="geometry" />
-        </mxCell>
-        <mxCell id="FdvN2o42iOKBgNyPMd7W-30" value="Update password successful" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="kdtmZ4ecT6VhdcJBhnhd-23" target="kdtmZ4ecT6VhdcJBhnhd-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="347" y="300.00230769230757" as="sourcePoint" />
-            <mxPoint x="190" y="300" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="294.73129870129867" y="300.00230769230757" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry y="50.22896800445766" width="739.9999999999995" height="14.400000000000006" as="geometry" />
         </mxCell>
         <mxCell id="kdtmZ4ecT6VhdcJBhnhd-1" value="[Recover password&#xa;by phone number]" style="text;fontStyle=1" vertex="1" parent="kdtmZ4ecT6VhdcJBhnhd-0">
           <mxGeometry width="100" height="20" relative="1" as="geometry">
@@ -546,6 +537,16 @@
             <mxPoint x="360" y="520" as="targetPoint" />
             <Array as="points">
               <mxPoint x="462.73129870129867" y="520.0023076923076" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdvN2o42iOKBgNyPMd7W-30" value="Update password successful" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="hTDITebdi8VZKOtm0hj7-1" source="pUrRV-KYk3D6kFNX7yST-5" target="kdtmZ4ecT6VhdcJBhnhd-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="337" y="481.1647227191412" as="sourcePoint" />
+            <mxPoint x="180" y="481.16279069767444" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="550" />
+              <mxPoint x="285" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
