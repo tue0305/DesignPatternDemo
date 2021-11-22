@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T10:59:24.614Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="J_-tt8Mgnw9i780eUQqy" version="15.8.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-22T11:05:31.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="PkzabSPV9rHC7qGBWN4i" version="15.8.3" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence_Login">
     <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -259,10 +259,10 @@
         <mxCell id="hTDITebdi8VZKOtm0hj7-0" />
         <mxCell id="hTDITebdi8VZKOtm0hj7-1" parent="hTDITebdi8VZKOtm0hj7-0" />
         <mxCell id="kdtmZ4ecT6VhdcJBhnhd-0" value="Alternative" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=80;height=20;fontStyle=0" vertex="1" parent="hTDITebdi8VZKOtm0hj7-1">
-          <mxGeometry x="-30" y="150" width="850" height="820" as="geometry" />
+          <mxGeometry x="-30" y="150" width="850" height="970" as="geometry" />
         </mxCell>
         <mxCell id="kdtmZ4ecT6VhdcJBhnhd-23" value="Alternative" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=80;height=20;fontStyle=0" vertex="1" parent="kdtmZ4ecT6VhdcJBhnhd-0">
-          <mxGeometry x="20" y="80" width="770" height="360" as="geometry" />
+          <mxGeometry x="20" y="80" width="790" height="360" as="geometry" />
         </mxCell>
         <mxCell id="kdtmZ4ecT6VhdcJBhnhd-24" value="[User not found]" style="text;fontStyle=1" vertex="1" parent="kdtmZ4ecT6VhdcJBhnhd-23">
           <mxGeometry width="100" height="20" relative="1" as="geometry">
@@ -270,7 +270,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kdtmZ4ecT6VhdcJBhnhd-25" value="[User found]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;fontStyle=1" vertex="1" parent="kdtmZ4ecT6VhdcJBhnhd-23">
-          <mxGeometry y="50.22896800445766" width="769.9999999999995" height="14.400000000000006" as="geometry" />
+          <mxGeometry y="50.22896800445766" width="789.9999999999995" height="14.400000000000006" as="geometry" />
         </mxCell>
         <mxCell id="kdtmZ4ecT6VhdcJBhnhd-1" value="[Recover password&#xa;by phone number]" style="text;fontStyle=1" vertex="1" parent="kdtmZ4ecT6VhdcJBhnhd-0">
           <mxGeometry width="100" height="20" relative="1" as="geometry">
@@ -278,10 +278,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kdtmZ4ecT6VhdcJBhnhd-2" value="[Recover password&#xa;by emaiil]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;fontStyle=1" vertex="1" parent="kdtmZ4ecT6VhdcJBhnhd-0">
-          <mxGeometry x="20" y="460.0022094691242" width="849.9999999999997" height="26.40000000000001" as="geometry" />
+          <mxGeometry y="460.0022094691242" width="849.9999999999997" height="26.40000000000001" as="geometry" />
         </mxCell>
         <mxCell id="8IY3kumQUudsY3MC08TT-14" value=":Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=1" vertex="1" parent="hTDITebdi8VZKOtm0hj7-1">
-          <mxGeometry x="310" y="40" width="97" height="840" as="geometry" />
+          <mxGeometry x="310" y="40" width="97" height="1100" as="geometry" />
         </mxCell>
         <mxCell id="8IY3kumQUudsY3MC08TT-15" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="8IY3kumQUudsY3MC08TT-14">
           <mxGeometry x="45" y="60" width="10" height="50" as="geometry" />
@@ -308,7 +308,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8IY3kumQUudsY3MC08TT-19" value=":Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=1" vertex="1" parent="hTDITebdi8VZKOtm0hj7-1">
-          <mxGeometry x="690" y="40" width="100" height="840" as="geometry" />
+          <mxGeometry x="690" y="40" width="100" height="1110" as="geometry" />
         </mxCell>
         <mxCell id="kdtmZ4ecT6VhdcJBhnhd-20" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="8IY3kumQUudsY3MC08TT-19">
           <mxGeometry x="45" y="150" width="10" height="470" as="geometry" />
@@ -328,7 +328,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8IY3kumQUudsY3MC08TT-21" value="&lt;b&gt;User&lt;/b&gt;" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="hTDITebdi8VZKOtm0hj7-1">
-          <mxGeometry x="130" y="40" width="20" height="830" as="geometry" />
+          <mxGeometry x="130" y="40" width="20" height="1100" as="geometry" />
         </mxCell>
         <mxCell id="kdtmZ4ecT6VhdcJBhnhd-9" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="8IY3kumQUudsY3MC08TT-21">
           <mxGeometry x="5" y="90" width="10" height="710" as="geometry" />
@@ -528,7 +528,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8IY3kumQUudsY3MC08TT-17" value=":Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=1" vertex="1" parent="hTDITebdi8VZKOtm0hj7-1">
-          <mxGeometry x="500" y="40" width="100" height="830" as="geometry" />
+          <mxGeometry x="500" y="40" width="100" height="1100" as="geometry" />
         </mxCell>
         <mxCell id="kdtmZ4ecT6VhdcJBhnhd-12" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="8IY3kumQUudsY3MC08TT-17">
           <mxGeometry x="45" y="130" width="10" height="680" as="geometry" />
