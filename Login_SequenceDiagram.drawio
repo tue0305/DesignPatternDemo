@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T09:37:49.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="gXq2nHPJH5SBosUhYWKS" version="15.8.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-22T09:38:15.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="Tm-dulJv9SuOw5g_5cWe" version="15.8.3" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence_Login">
     <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -253,7 +253,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="D2Jnyh172PK4QWvA5VZ5" name="Page-3">
+  <diagram id="D2Jnyh172PK4QWvA5VZ5" name="Sequence_ForgotPassword">
     <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="hTDITebdi8VZKOtm0hj7-0" />
