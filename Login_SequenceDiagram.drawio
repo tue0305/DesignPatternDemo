@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-23T04:20:02.685Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="88ns52b9bNyRCMKPQz4E" version="15.8.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-23T04:21:24.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="k0kAOW-gUC1ifko5JI69" version="15.8.3" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence_Login">
     <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -700,7 +700,8 @@
             <mxPoint x="310" y="430" as="sourcePoint" />
             <mxPoint x="180" y="465.23809523809524" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="200" y="480" />
+              <mxPoint x="230" y="450" />
+              <mxPoint x="200" y="450" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -725,7 +726,8 @@
             <mxPoint x="350" y="415.7142857142857" as="sourcePoint" />
             <mxPoint x="510" y="415.7142857142857" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="450" y="410" />
+              <mxPoint x="390" y="400" />
+              <mxPoint x="450" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -781,7 +783,9 @@
             <mxPoint x="508.49753246753244" y="410.0023076923076" as="sourcePoint" />
             <mxPoint x="370" y="410" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="466" y="450" />
+              <mxPoint x="510" y="430" />
+              <mxPoint x="500" y="430" />
+              <mxPoint x="450" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
