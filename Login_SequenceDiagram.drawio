@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-23T04:47:26.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="hWejAGjZokbxEQN32Ei2" version="15.8.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-23T04:48:05.614Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="70bFBG_73X2oD-1V4Otk" version="15.8.3" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence_Login">
     <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -579,7 +579,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ybgOlUij3rZLyjF1RSxm" name="Page-4">
-    <mxGraphModel dx="2128" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1504" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="NFMQq4jKXiaXNevHmbEf-0" />
         <mxCell id="NFMQq4jKXiaXNevHmbEf-1" parent="NFMQq4jKXiaXNevHmbEf-0" />
@@ -776,8 +776,8 @@
         <mxCell id="XnUGOFWagCg9uuafpxc6-43" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="XnUGOFWagCg9uuafpxc6-42">
           <mxGeometry x="45" y="130" width="10" height="980" as="geometry" />
         </mxCell>
-        <mxCell id="XnUGOFWagCg9uuafpxc6-1" value="Alternative" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=80;height=20;fontStyle=0" vertex="1" parent="NFMQq4jKXiaXNevHmbEf-1">
-          <mxGeometry x="-790" y="210" width="860" height="840" as="geometry" />
+        <mxCell id="XnUGOFWagCg9uuafpxc6-1" value="Alternative" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=80;height=20;fontStyle=0" vertex="1" parent="XnUGOFWagCg9uuafpxc6-42">
+          <mxGeometry x="-480" y="260" width="860" height="840" as="geometry" />
         </mxCell>
         <mxCell id="XnUGOFWagCg9uuafpxc6-2" value="[User not found]" style="text;fontStyle=1" vertex="1" parent="XnUGOFWagCg9uuafpxc6-1">
           <mxGeometry width="100" height="20" relative="1" as="geometry">
