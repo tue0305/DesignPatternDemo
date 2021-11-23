@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-23T04:01:27.804Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="6wSbA5Wz00_hwYmUL_gO" version="15.8.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-11-23T04:04:21.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="NieMnqYDJavdIc57hM74" version="15.8.3" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence_Login">
     <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -559,6 +559,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qLjuqP-XoyRU4X6MrDwd-1" value="provide phone number" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qLjuqP-XoyRU4X6MrDwd-0">
+          <mxGeometry x="-0.2222" y="3" relative="1" as="geometry">
+            <mxPoint x="10" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLjuqP-XoyRU4X6MrDwd-4" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" edge="1" parent="hTDITebdi8VZKOtm0hj7-1" source="pUrRV-KYk3D6kFNX7yST-5" target="kdtmZ4ecT6VhdcJBhnhd-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="380" y="670" as="sourcePoint" />
+            <mxPoint x="540" y="670" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLjuqP-XoyRU4X6MrDwd-5" value="ForgotPassword()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qLjuqP-XoyRU4X6MrDwd-4">
           <mxGeometry x="-0.2222" y="3" relative="1" as="geometry">
             <mxPoint x="10" y="-7" as="offset" />
           </mxGeometry>
