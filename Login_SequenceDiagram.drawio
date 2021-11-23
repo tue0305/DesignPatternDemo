@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-23T04:51:56.892Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="FUzgon2e1dM69RpcVQG7" version="15.8.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-23T04:53:42.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29" etag="5vrouO9PjwuuuhO9JKAu" version="15.8.3" type="github" pages="4">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Sequence_Login">
     <mxGraphModel dx="1278" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -583,6 +583,28 @@
       <root>
         <mxCell id="NFMQq4jKXiaXNevHmbEf-0" />
         <mxCell id="NFMQq4jKXiaXNevHmbEf-1" parent="NFMQq4jKXiaXNevHmbEf-0" />
+        <mxCell id="XnUGOFWagCg9uuafpxc6-1" value="Alternative" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=80;height=20;fontStyle=0" vertex="1" parent="NFMQq4jKXiaXNevHmbEf-1">
+          <mxGeometry x="-110" y="222.5" width="960" height="627.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XnUGOFWagCg9uuafpxc6-2" value="[User not found]" style="text;fontStyle=1" vertex="1" parent="XnUGOFWagCg9uuafpxc6-1">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="20" y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XnUGOFWagCg9uuafpxc6-3" value="[User found]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;fontStyle=1" vertex="1" parent="XnUGOFWagCg9uuafpxc6-1">
+          <mxGeometry y="57.4986551454827" width="959.9999999999994" height="10.757142857142862" as="geometry" />
+        </mxCell>
+        <mxCell id="PpvFJJS5NvbiIiKrdiP7-0" value="Alternative" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=80;height=20;fontStyle=0" vertex="1" parent="XnUGOFWagCg9uuafpxc6-1">
+          <mxGeometry x="21.82" y="107.5" width="678.18" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="PpvFJJS5NvbiIiKrdiP7-4" value="[Recover password&#xa;by phone number]" style="text;fontStyle=1" vertex="1" parent="PpvFJJS5NvbiIiKrdiP7-0">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="20" y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PpvFJJS5NvbiIiKrdiP7-5" value="[Recover password&#xa;by emaiil]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;fontStyle=1" vertex="1" parent="PpvFJJS5NvbiIiKrdiP7-0">
+          <mxGeometry y="98.99321690865156" width="678.1799999999997" height="6.2597938144329905" as="geometry" />
+        </mxCell>
         <mxCell id="XnUGOFWagCg9uuafpxc6-6" value=":Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=1" vertex="1" parent="NFMQq4jKXiaXNevHmbEf-1">
           <mxGeometry x="310" y="40" width="97" height="1200" as="geometry" />
         </mxCell>
@@ -791,7 +813,7 @@
             <mxPoint x="520" y="450" as="sourcePoint" />
             <mxPoint x="380" y="450" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="482.5" y="450" />
+              <mxPoint x="420" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -800,8 +822,8 @@
             <mxPoint x="350" y="470" as="sourcePoint" />
             <mxPoint x="170" y="470" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="295" y="470" />
-              <mxPoint x="245" y="470" />
+              <mxPoint x="295" y="490" />
+              <mxPoint x="190" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -815,8 +837,9 @@
             <mxPoint x="160" y="500" as="sourcePoint" />
             <mxPoint x="350" y="500" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="235" y="500" />
-              <mxPoint x="305" y="500" />
+              <mxPoint x="235" y="520" />
+              <mxPoint x="280" y="520" />
+              <mxPoint x="305" y="520" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -830,8 +853,8 @@
             <mxPoint x="400" y="520" as="sourcePoint" />
             <mxPoint x="530" y="520" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="430" y="520" />
-              <mxPoint x="500" y="520" />
+              <mxPoint x="430" y="540" />
+              <mxPoint x="490" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -845,7 +868,9 @@
             <mxPoint x="535" y="580" as="sourcePoint" />
             <mxPoint x="380" y="580" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="473" y="610" />
+              <mxPoint x="500" y="600" />
+              <mxPoint x="440" y="600" />
+              <mxPoint x="390" y="600" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -908,28 +933,6 @@
               <mxPoint x="285" y="810" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="XnUGOFWagCg9uuafpxc6-1" value="Alternative" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=80;height=20;fontStyle=0" vertex="1" parent="NFMQq4jKXiaXNevHmbEf-1">
-          <mxGeometry x="-110" y="222.5" width="960" height="627.5" as="geometry" />
-        </mxCell>
-        <mxCell id="XnUGOFWagCg9uuafpxc6-2" value="[User not found]" style="text;fontStyle=1" vertex="1" parent="XnUGOFWagCg9uuafpxc6-1">
-          <mxGeometry width="100" height="20" relative="1" as="geometry">
-            <mxPoint x="20" y="30" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XnUGOFWagCg9uuafpxc6-3" value="[User found]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;fontStyle=1" vertex="1" parent="XnUGOFWagCg9uuafpxc6-1">
-          <mxGeometry y="37.1286551454827" width="959.9999999999994" height="10.757142857142862" as="geometry" />
-        </mxCell>
-        <mxCell id="PpvFJJS5NvbiIiKrdiP7-0" value="Alternative" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=80;height=20;fontStyle=0" vertex="1" parent="XnUGOFWagCg9uuafpxc6-1">
-          <mxGeometry x="21.82" y="79.83" width="678.18" height="250.17" as="geometry" />
-        </mxCell>
-        <mxCell id="PpvFJJS5NvbiIiKrdiP7-4" value="[Recover password&#xa;by phone number]" style="text;fontStyle=1" vertex="1" parent="PpvFJJS5NvbiIiKrdiP7-0">
-          <mxGeometry width="100" height="20" relative="1" as="geometry">
-            <mxPoint x="20" y="30" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PpvFJJS5NvbiIiKrdiP7-5" value="[Recover password&#xa;by emaiil]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;fontStyle=1" vertex="1" parent="PpvFJJS5NvbiIiKrdiP7-0">
-          <mxGeometry y="107.67449162624939" width="678.1799999999997" height="6.808750515463918" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
